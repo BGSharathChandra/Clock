@@ -1,0 +1,34 @@
+:root{
+    --bg-color:#343a40 ;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--bg-color);
+    width: 100%;
+}
+nav{
+    display: flex;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    height: 9vh;
+    align-items: center;
+    
+}
+li{
+    list-style:none;
+    padding: 0.5vw;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}

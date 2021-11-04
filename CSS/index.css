@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.container{
+    background-color: red;
+    border: 1px solid black;
+    margin: 5vh 5vw;
+    height: 60vh;
+    width: 90vw;
+    font-size: 12vh;
+    font-family: 'Ceviche One', cursive;
+}
+
+.text{
+    color: black;
+    font-size: 5vh;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+@media screen and (max-width: 820px){
+    .container{
+        margin: 0;
+        height: 90vh;
+        width: 100vw;
+        font-size: 10vh;
+    }
+    .text{
+        font-size: 3vh;
+    }
+}
