@@ -12,9 +12,6 @@ setInterval(() => {
     date = a.getDate()
     day = days[a.getDay()]
     let time = a.getHours()+ ":" + a.getMinutes()+ ':' + a.getSeconds()
-    console.log(a.getHours());
-    console.log(a.getMinutes());
-    console.log(a.getSeconds());
     
     container.innerHTML = "Current Time is: " + time + "<br>on " + "Day:"+day + " Date:"+date+"<hr><br> <p class = 'text'>This is a Simple Clock. Check out the About Page for More Information.</p>"
 }, 1000);
